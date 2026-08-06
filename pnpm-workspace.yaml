@@ -1,0 +1,13 @@
+packages:
+  - '.'
+minimumReleaseAge: 4320
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+trustPolicy: no-downgrade
+trustLockfile: false
+trustPolicyIgnoreAfter: 525600
+blockExoticSubdeps: true
+strictDepBuilds: true
+allowBuilds:
+  sharp: true
+  unrs-resolver: true

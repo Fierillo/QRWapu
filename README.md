@@ -41,7 +41,8 @@ Para proteger los endpoints internos y evitar inyecciones en APIs de terceros, s
 ## 🛠️ Despliegue Local y Entorno Operativo
 
 ### Prerrequisitos
-* Node.js (v18+)
+* Node.js (v20.9+)
+* pnpm 10.28.2
 * Una cuenta en WapuPay y una API Key activa.
 
 ### Configuración
@@ -53,7 +54,7 @@ Para proteger los endpoints internos y evitar inyecciones en APIs de terceros, s
 
 2. Instalar dependencias del sistema:
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. Variables de entorno (`.env.local`):
@@ -65,19 +66,19 @@ Para proteger los endpoints internos y evitar inyecciones en APIs de terceros, s
 
 4. Ejecutar Suite de Tests (Vitest):
    ```bash
-   npm run test
+   pnpm test
    ```
 
 5. Levantar Entorno de Desarrollo Local:
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 ### Producción (Vercel / Cloud)
 Para desplegar la aplicación, asegúrate de configurar las variables de entorno en el panel de control de tu proveedor y luego compilar:
 ```bash
-npm run build
-npm run start
+pnpm build
+pnpm start
 ```
 
 ---

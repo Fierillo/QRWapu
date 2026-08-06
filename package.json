@@ -4,6 +4,10 @@
   "description": "Terminal POS Lightning Cero Friccion",
   "author": "Capitan del Escabio",
   "private": true,
+  "packageManager": "pnpm@11.20.0+sha512-mm8zCpW2ZEbqCI+vFSFAWooB8H/ecTVmVjf7VLUu0NnN+ZbCPhfN7Rvy6N1CSVYrFEmK4FoRLIvY0Bu0Wa/7g==",
+  "engines": {
+    "node": ">=22.14.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
